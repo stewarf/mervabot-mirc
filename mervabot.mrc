@@ -29,6 +29,7 @@ menu channel,query,menubar,status,@MeRVa-BoT {
   ..Manual de Utilización:tutorial
   .Acerca de...:dialog -m aboutmrv aboutmrv
 }
+
 menu nicklist {
 .buscar foto: run http://www.genteirc.com/busquedas/busca.php?tipobusqueda=nick&nick= $+ $1
 }
@@ -46,9 +47,11 @@ dialog aboutmrv {
   button "&Visitar Sitio", 7, 200 130 75 22, center
   button "&Aceptar", 8, 110 165 90 25, ok
 }
+
 on *:dialog:aboutmrv:sclick:*:{
   if ($did == 7) { run "http://www.iespana.es/sharak/index.htm" } | if ($did == 8) { dialog -k aboutmrv } 
 }
+
 ;Ventana de Texto del Manual de Utilización.
 alias tutorial { 
   window -ablkx0 @MeRVa-BoT -1 -1
@@ -189,5 +192,5 @@ on 1:JOIN:#: {
 nombre=MeRVa-BoT
 autor=stewarf
 ver=1.3
-web=http://www.iespana.es/sharak
+web=http://stewarf.blogspot.mx
 desc=Pequeño Add-On con Bots, Servicios y Juegos para Operadores.
