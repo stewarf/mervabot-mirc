@@ -1,9 +1,13 @@
 ***merva-bot for mIRC versión 1.3***
-by [stewarf](https://github.com/stewarf)
+por [stewarf](https://github.com/stewarf)
+
+![mIRC Logotipo](http://dl.dropbox.com/u/12074021/mervabot-mirc/mIRClogo.gif)
+
+![mervabot Logotipo](http://dl.dropbox.com/u/12074021/mervabot-mirc/mrvlogo.jpg)
 
 *Acerca de merva-bot for mIRC*
 
-Este pequeño Add-On fue diseñado para tener la interacción con los usuarios en su canal favorito.
+Este pequeño script add-on fue diseñado para que los usuarios de un canal puedan interactuar.
 
 *Manual de Utilización para Administradores y Masters del Canal*
 
